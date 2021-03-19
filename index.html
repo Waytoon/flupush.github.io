@@ -3,7 +3,7 @@
  * @Author: Ryan Liu
  * @Date: 2021-03-19 14:02:19
  * @LastEditors: tgb
- * @LastEditTime: 2021-03-19 17:29:52
+ * @LastEditTime: 2021-03-19 17:33:37
 -->
 <!DOCTYPE html>
 <html>
@@ -65,36 +65,27 @@
     }
     
     .loader {
-      border: 12px solid #f3f3f3;
-      border-radius: 50%;
-      border: 11px solid ;
-      border-top: 12px solid blue;
-      border-right: 12px solid white;
-      border-bottom: 12px solid blue;
-      border-left: 12px solid white;
-      width: 30px;
-      height: 30px;
-      -webkit-animation: spin 2s linear infinite;
-      animation: spin 2s linear infinite;
-    }
-    
-    @-webkit-keyframes spin {
-      0% {
-        -webkit-transform: rotate(0deg);
-      }
-      100% {
-        -webkit-transform: rotate(360deg);
-      }
-    }
-    
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid blue;
+  border-right: 8px solid green;
+  border-bottom: 8px solid red;
+  border-left: 8px solid pink;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
   </style>
 </head>
 <body>
