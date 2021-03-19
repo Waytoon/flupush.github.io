@@ -1,11 +1,11 @@
 {
-    "name": "Chimera Flutter Code Push",
-    "short_name": "Chimera",
+    "name": "flutter_web",
+    "short_name": "flutter_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Flutter Code Push 1st SDk",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
