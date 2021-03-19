@@ -3,7 +3,7 @@
  * @Author: Ryan Liu
  * @Date: 2021-03-19 14:02:19
  * @LastEditors: tgb
- * @LastEditTime: 2021-03-19 18:15:15
+ * @LastEditTime: 2021-03-19 21:19:14
 -->
 <!DOCTYPE html>
 <html>
@@ -53,60 +53,111 @@
     <link rel="manifest" href="manifest.json">
 
     <style>
-        .loading {
+        body {
+            background-color: rgb(244, 245, 243);
+            padding: 20%;
+        }
 
+        h2 {
+            align-items: center;
+            position: absolute;
+            top: 32%;
+            left: 46%;
+            color: rgb(9, 135, 189);
+            font: .9em verdana;
+            letter-spacing: .1em;
+        }
+
+        /*
+        * Loading Dots
+        * Can we use pseudo elements here instead :after?
+        */
+        .loading span {
             align-items: center;
             position: absolute;
             top: 35%;
             left: 47%;
-            
-
-
-
-            width: 80px;
-            height: 40px;
-            margin: 0 auto;
-            margin-top: 100px;
-        }
-
-        .loading span {
             display: inline-block;
-            width: 8px;
-            height: 100%;
-            border-radius: 4px;
-            background: lightgreen;
-            -webkit-animation: load 1s ease infinite;
+            vertical-align: center;
+            width: .6em;
+            height: .6em;
+            margin: .19em;
+            background: #007DB6;
+            border-radius: .6em;
+            animation: loading 1s infinite alternate;
         }
 
-        @-webkit-keyframes load {
+        /*
+        * Dots Colors
+        * Smarter targeting vs nth-of-type?
+        */
+        .loading span:nth-of-type(2) {
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 48%;
+            background: #008FB2;
+            animation-delay: 0.2s;
+        }
 
-            0%,
+        .loading span:nth-of-type(3) {
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 49%;
+            background: #009B9E;
+            animation-delay: 0.4s;
+        }
+
+        .loading span:nth-of-type(4) {
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            background: #00A77D;
+            animation-delay: 0.6s;
+        }
+
+        .loading span:nth-of-type(5) {
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 51%;
+
+            background: #00B247;
+            animation-delay: 0.8s;
+        }
+
+        .loading span:nth-of-type(6) {
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 52%;
+            background: #5AB027;
+            animation-delay: 1.0s;
+        }
+
+        .loading span:nth-of-type(7) {
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 53%;
+            background: #A0B61E;
+            animation-delay: 1.2s;
+        }
+
+        /*
+        * Animation keyframes
+        * Use transition opacity instead of keyframes?
+        */
+        @keyframes loading {
+            0% {
+                opacity: 0;
+            }
+
             100% {
-                height: 40px;
-                background: lightgreen;
+                opacity: 1;
             }
-
-            50% {
-                height: 70px;
-                margin: -15px 0;
-                background: lightblue;
-            }
-        }
-
-        .loading span:nth-child(2) {
-            -webkit-animation-delay: 0.2s;
-        }
-
-        .loading span:nth-child(3) {
-            -webkit-animation-delay: 0.4s;
-        }
-
-        .loading span:nth-child(4) {
-            -webkit-animation-delay: 0.6s;
-        }
-
-        .loading span:nth-child(5) {
-            -webkit-animation-delay: 0.8s;
         }
     </style>
 
@@ -115,6 +166,9 @@
 <body>
 
     <div class="loading">
+        <h2>Chimera Flutter Code Push</h2>
+        <span></span>
+        <span></span>
         <span></span>
         <span></span>
         <span></span>
