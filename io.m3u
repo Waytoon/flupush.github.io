@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1, group-title="中央频道", CCTV-5
+http://newvideo.dangtutv.cn:8278/CCTVsports/playlist.m3u8
