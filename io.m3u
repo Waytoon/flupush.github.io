@@ -1,9 +1,51 @@
 #EXTM3U
-#EXTINF:-1, group-title="中央频道", CCTV-5
-http://newvideo.dangtutv.cn:8278/CCTVsports/playlist.m3u8
 #EXTINF:-1, group-title="中央频道", CCTV-1
 http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 #EXTINF:-1, group-title="中央频道", CCTV-2
 http://ivi.bupt.edu.cn/hls/cctv2hd.m3u8
 #EXTINF:-1, group-title="中央频道", CCTV-3
 http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-4
+http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-5
+http://newvideo.dangtutv.cn:8278/CCTVsports/playlist.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-5P
+http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-6
+http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-7
+http://ivi.bupt.edu.cn/hls/cctv7hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-8
+http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-9
+http://ivi.bupt.edu.cn/hls/cctv9hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-10
+http://ivi.bupt.edu.cn/hls/cctv10hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-12
+http://ivi.bupt.edu.cn/hls/cctv12hd.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-13
+http://ivi.bupt.edu.cn/hls/cctv13.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-14
+http://ivi.bupt.edu.cn/hls/cctv14.m3u8
+#EXTINF:-1, group-title="中央频道", CCTV-15
+http://ivi.bupt.edu.cn/hls/cctv15.m3u8
+#EXTINF:-1, group-title="卫视频道", 东方卫视
+http://ivi.bupt.edu.cn/hls/dfhd.m3u8
+#EXTINF:-1, group-title="卫视频道", 湖南卫视
+http://ivi.bupt.edu.cn/hls/hunanhd.m3u8
+#EXTINF:-1, group-title="卫视频道", 浙江卫视
+http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
+#EXTINF:-1, group-title="卫视频道", 江苏卫视
+http://ivi.bupt.edu.cn/hls/jshd.m3u8
+#EXTINF:-1, group-title="卫视频道", 河南卫视
+http://ivi.bupt.edu.cn/hls/hnhd.m3u8
+#EXTINF:-1, group-title="卫视频道", 北京卫视
+http://ivi.bupt.edu.cn/hls/btv1hd.m3u8
+#EXTINF:-1, group-title="卫视频道", 山东卫视
+http://ivi.bupt.edu.cn/hls/sdhd.m3u8
+#EXTINF:-1, group-title="卫视频道", 齐鲁卫视
+http://livealone302.iqilu.com/iqilu/qlpd.m3u8
+#EXTINF:-1, group-title="卫视频道", 深圳卫视
+http://ivi.bupt.edu.cn/hls/szhd.m3u8
+#EXTINF:-1, group-title="卫视频道", 辽宁卫视
+http://ivi.bupt.edu.cn/hls/lnhd.m3u8
